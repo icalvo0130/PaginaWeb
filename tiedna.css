@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: sans-serif;
 }
 
 body {
@@ -15,6 +16,16 @@ h1, h2, h3, h4, h5, h6 {
   .losEstrella{
     background-color: rgb(192, 216, 252);
     padding: 50px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background-color:  rgb(236, 231, 75);
 }
 
 section {

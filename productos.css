@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -30,39 +31,6 @@ body {
 
 }
 
-.busqueda {
-    width: 220px;
-    height: 40px;
-    border-radius: 3px;
-    outline: none;
-    border: none;
-    padding: 10px;
-    background-color: white;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, .2);
-}
-
-input {
-    width: 100%;
-    height: 60px;
-    color: rgba(19, 114, 206, 1);
-    font-size: 15px;
-    outline: none;
-    border: none;
-    background: transparent;
-    position: relative;
-    bottom: 20px;
-}
-
-.busqueda i {
-    font-size: 20px;
-    color: rgba(19, 114, 206, 1);
-    display: flex;
-    align-items: center;
-    flex-direction: row-reverse;
-    text-align: right;
-    position: relative;
-    bottom: 60px;
-}
 
 .devolverse {
     display: flex;
@@ -73,19 +41,26 @@ input {
 
 }
 
-
-.barranavegar a {
-    align-items: center;
-    font-size: 18px;
+.devolverse {
+    font-size: 20px;
     color: white;
-    font-weight: 500;
-    margin: 0 20px;
-    transition: 1s;
+    transition: 0.1s;
 }
 
-.barranavegar a:hover {
-    color: rgb(236, 231, 75)
+.devolverse i{
+    font-size: 32px;
+    color: white;
+    transition: 0.1s;
 }
+
+.devolverse:hover {
+    color: rgb(236, 231, 75);
+}
+
+.devolverse i:hover{
+    color: rgb(236, 231, 75);
+}
+
 
 .fotos {
     background-color:  rgb(192, 216, 252);
@@ -244,37 +219,3 @@ transform: translate(50px, 50px);
 
 }
 
-.devolverse {
-    font-size: 20px;
-    color: white;
-    transition: 0.1s;
-}
-
-.devolverse i{
-    font-size: 32px;
-    color: white;
-    transition: 0.1s;
-}
-
-.devolverse:hover {
-    color: rgb(236, 231, 75);
-}
-
-.devolverse i:hover{
-    color: rgb(236, 231, 75);
-}
-
-
-
-button {
-    background-color: white;
-    height: 35px;
-    width: 35px;
-    border-radius: 300px;
-    padding: 0%;
-
-}
-
-button i{
-    font-size: 25px;
-}
